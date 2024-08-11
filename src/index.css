@@ -81,15 +81,16 @@ code {
 
 .about-content{
   /* border: 1px solid brown; */
-  padding: 30px;
+  padding: 20px;
   text-align: center;
+  width: 70%;
 }
 
 .about-content h4{
-  margin: 50px  0px 30px;
+  padding: 10px;
 }
 .about-content p{
-  margin-bottom: 30px;
+  padding: 10px;
 }
 
 
@@ -98,7 +99,6 @@ code {
 #product{
   margin-top: 30px;
 }
-
 .product{
   /* border: 2px solid black; */
   height: auto;
@@ -118,7 +118,8 @@ code {
 /*-------Offer-----------*/
 
 .offer-block{
-  padding: 100px;
+  /* border: 2px solid black; */
+  padding: 100px 30px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -143,7 +144,51 @@ code {
 .grid img{
   width: 100%;
 }
+/* ----Blogs-----*/
+.blogs{
+  padding: 50px;
+  border: none;
+}
 
+
+/*-----Footer----*/
+
+.Footer{
+  background-color: #191d24;
+  color: white;
+  padding: 50px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-block1 ul{
+  list-style: none;
+  text-align: left;
+}
+.footer-block2{
+  /* border: 2px solid blue; */
+  padding: 50px 5px;
+}
+
+.footer-block2 input{
+  padding: 10px 0px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  width: 300px;
+}
+.footer-block2 button{
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.footer-block2 p{
+  margin-top: 20px;
+}
 
 
 
@@ -161,17 +206,17 @@ code {
   .about-block{
     padding: 50px 20px;
   }
-
   .about-content{
+    width: 100%;
     padding: 20px;
   }
   .about-content h4{
     margin: 20px 0px 20px;
     font-size: 20px;
-    font-weight: bold;
   }
   .about-content p{
-    font-size: 16px;
+    text-align: justify;
+    font-size: 12px;
   }
 
   /*----products----*/
@@ -183,7 +228,7 @@ code {
 
   /*-----Offer------*/
   .offer-block{
-    padding: 60px 20px;
+    padding: 40px 20px;
   }
   .offer-content{
     padding: 10px;
@@ -195,6 +240,24 @@ code {
   .offer-content p{
     font-size: 12px;
   }
+
+
+  /*-------Footer------------*/
+
+  .Footer{
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  .footer-block1 ul{
+    display: none;
+  }
+  .footer-block2{
+    padding: 30px 5px;
+  }
+  .footer-block2 input{
+    width: 180px;
+  }
+
 
 
   

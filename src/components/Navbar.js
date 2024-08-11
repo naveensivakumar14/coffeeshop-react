@@ -64,17 +64,18 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary " sticky="top">
       <Container className='py-2'>
-        <Navbar.Brand className='fw-bold' href="#home">Sip urCup</Navbar.Brand>
+        <Navbar.Brand className='fw-bold' href="#home">Coffeine Corner</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="m-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#hero">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#products">Products</Nav.Link>
+            <Nav.Link href="#blogs">Blogs</Nav.Link>
             <Nav.Link href="#contacts">Contacts</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#explore">Explore</Nav.Link>
+            <Nav.Link href="#about">Explore</Nav.Link>
             <Button variant="outline-dark">Sign up</Button>
           </Nav>
         </Navbar.Collapse>

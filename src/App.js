@@ -8,6 +8,9 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Products from './components/Products'
 import Offer from './components/Offer';
+import Blogs from './components/Blogs'
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -18,6 +21,8 @@ function App() {
       <About></About>
       <Products></Products>
       <Offer></Offer>
+      <Blogs></Blogs>
+      <Footer></Footer>
     </div>
   );
 }

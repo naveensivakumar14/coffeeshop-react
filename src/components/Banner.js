@@ -6,7 +6,6 @@ import Carosuel3 from '../assets/images/coffee-banner-3.jpg';
 function UncontrolledExample() {
   return (
 
- 
     <div id='hero' className='Hero'>
         <div  className='container hero-block'>
             <Carousel>
