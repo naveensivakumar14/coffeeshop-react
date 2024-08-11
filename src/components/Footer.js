@@ -1,10 +1,18 @@
+ import { useEffect } from 'react';
 
+//AOS animation Library
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 //Footer Component
 
 function Footer(){
+
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[])
     return(
-        <div id="contacts" className="Footer">
+        <div id="contacts" className="Footer"  data-aos="fade-up">
             <div className='footer-block1'>
                 <h4>Caffeine Corner</h4>
                 <ul>
